@@ -42,6 +42,14 @@ error:
 	return -1;
 }
 
+int read_scan(const char *fmt, ...)
+{
+	int i = 0;
+	int rc = 0;
+	int *out_int = NULL;
+
+}
+
 int main( int argc, char* argv[] )
 {
    
